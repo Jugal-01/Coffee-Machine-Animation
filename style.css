@@ -1,0 +1,327 @@
+.container
+{
+    width: 350px;
+    height: 350px;
+    left: 100px;
+    top: 200px;
+    position: absolute;
+}
+.coffee-header
+{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+.button1
+{
+    width: 10%;
+    height: 40%;
+    top: 20%;
+    left: 5%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+}
+.button1::after
+{
+    content: "";
+    width: 8px;
+    height: 8px;
+    bottom: -8px;
+    left: 15px;
+    background-color: lightslategray;
+    position: absolute;
+}
+.button2
+{
+    width: 10%;
+    height: 40%;
+    top: 20%;
+    left: 20%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+}
+.button2::after
+{
+    content: "";
+    width: 8px;
+    height: 8px;
+    bottom: -8px;
+    left: 15px;
+    background-color: lightslategray;
+    position: absolute;
+}
+.main-button
+{
+    width: 15%;
+    height: 70%;
+    top: 20%;
+    left: 45%;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 5px solid darkcyan;
+    background-color: aqua;
+}
+.detail1
+{
+    width: 8px;
+    height: 16px;
+    top: 20%;
+    left: 80%;
+    position: absolute;
+    background-color: azure;
+}
+.detail2
+{
+    width: 8px;
+    height: 16px;
+    top: 20%;
+    left: 85%;
+    position: absolute;
+    background-color: azure;
+}
+.detail3
+{
+    width: 8px;
+    height: 16px;
+    top: 20%;
+    left: 90%;
+    position: absolute;
+    background-color: azure;
+}
+.coffee-medium
+{
+    width: 90%;
+    height: 70%;
+    top: 20%;
+    left: 5%;
+    position: absolute;
+    background-color: gainsboro;
+}
+.space
+{
+    width: 80%;
+    height: 70%;
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px 10px 0 0;
+}
+.main-button2
+{
+    width: 30%;
+    height: 15%;
+    left: 37%;
+    position: absolute;
+    background-color: black;
+}
+.main-button2::before
+{
+    content: "";
+    width: 70%;
+    height: 60%;
+    top: 100%;
+    left: 15%;
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    background-color: black;
+}
+.main-button2::after
+{
+    content: "";
+    width: 20%;
+    height: 50%;
+    top: 55px;
+    left: 40%;
+    position: absolute;
+    background-color: black;
+}
+.handle
+{
+    width: 25%;
+    height: 8%;
+    top: 15%;
+    left: 70%;
+    position: absolute;
+    background-color: black;
+}
+.handle::before
+{
+    content: "";
+    width: 30%;
+    height: 25%;
+    top: 45%;
+    left: -30%;
+    position: absolute;
+    background-color: darkgray;
+}
+.cup
+{
+    width: 20%;
+    height: 20%;
+    top: 80%;
+    left: 40%;
+    position: absolute;
+    border-radius: 0 0 20px 20px;
+    background-color: white;
+}
+.cup::after
+{
+    content: "";
+    width: 50%;
+    height: 50%;
+    top: 10%;
+    left: 80%;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
+.coffee
+{
+    width: 3%;
+    height: 80%;  
+    left: 51%;
+    opacity: 1;
+    position: absolute;
+    animation: coffee 3s 1s  linear infinite;
+    background-color: saddlebrown;
+}
+@keyframes coffee
+{
+    0%{
+        height: 0%;
+        opacity: 1;
+    }
+    25%{
+        height: 20%;
+        opacity: 1;
+    }
+    50%{
+        height: 40%;
+        opacity: 1;
+    }
+    75%{
+        height: 60%;
+        opacity: 1;
+    }
+    100%{
+        height: 80%;
+        opacity: 1;
+    }
+}
+.smoke1
+{
+    width: 5%;
+    height: 10%;
+    top: 60%;
+    left: 55%;
+    opacity: 0;
+    border-radius: 40%;
+    position: absolute;
+    animation: smoke1 4s 4s infinite;
+    background-color: #b3aeae;
+}
+@keyframes smoke1
+{
+    0%{
+        top: 60%;
+        opacity: 0;
+    }
+    40%{
+        top: 74%;
+        opacity: 5;
+    }
+    80%{
+        top: 70%;
+        opacity: 3;
+    }
+    100%{
+        top: 69%;
+        opacity: 5;
+    }
+}
+.smoke2
+{
+    width: 5%;
+    height: 10%;
+    top: 65%;
+    left: 45%;
+    opacity: 0;
+    border-radius: 40%;
+    position: absolute;
+    animation: smoke2 4s 5s infinite;
+    background-color: #b3aeae;
+}
+@keyframes smoke2
+{
+    0%{
+        top: 65%;
+        opacity: 0;
+    }
+    25%{
+        top: 72%;
+        opacity: 5;
+    }
+    75%{
+        top: 69%;
+        opacity: 3;
+    }
+    100%{
+        top: 65%;
+        opacity: 0;
+    }
+}
+.smoke3
+{
+    width: 5%;
+    height: 10%;
+    top: 50%;
+    left: 53%;
+    opacity: 0;
+    border-radius: 40%;
+    position: absolute;
+    animation: smoke3 4s 6s infinite;
+    background-color: #b3aeae;
+}
+@keyframes smoke3
+{
+    0%{
+        top: 50%;
+        opacity: 0;
+    }
+    40%{
+        top: 55%;
+        opacity: 5;
+    }
+    80%{
+        top: 60%;
+        opacity: 3;
+    }
+    100%{
+        top: 65%;
+        opacity: 0;
+    }
+}
+.coffee-footer
+{
+    width: 95%;
+    height: 5%;
+    top: 90%;
+    left: 2.5%;
+    border-radius: 10px;
+    position: absolute;
+    background-color: aquamarine;
+}
+.base
+{
+    width: 100%;
+    height: 5%;
+    top: 95%;
+    position: absolute;
+    background-color: black;
+}
