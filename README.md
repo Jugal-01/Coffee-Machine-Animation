@@ -1,0 +1,1 @@
+This website is static, built solely with HTML and CSS.
